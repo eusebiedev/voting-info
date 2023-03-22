@@ -9,6 +9,30 @@
   <title>Voting Info</title>
 </head>
 <body>
-  
+  <div>
+    <h1>Welcome to your local voting information site!</h1>
+    <form>
+      <label for="age">Enter your age to learn about the voting process!</label>
+      <input id="age" type="number">
+      <button type="submit">Submit!</button>
+    </form>
+
+    <div id="minors" class="hidden">
+      <h3 id="">Thanks for your submission. You are under the legal voting age of 18</h3>
+      <p>Please visit these links below to learn about the voting process:</p>
+        <ul>
+          <li><a href="https://www.portlandoregon.gov/auditor/article/26943">How do i vote?</a></li>
+        </ul>
+    </div>
+
+    <div id="legalage" class="hidden">
+      <h3>Thank you for your submission. You are of legal age to vote!</h3>
+      <p>Please visit these links below for upcoming election dates:</p>
+        <u>
+          <li><a href="https://www.multco.us/elections/official-ballot-drop-sites">View your local ballot boxes!</li>
+        </u>
+    </div>
+
+  </div>
 </body>
 </html>
